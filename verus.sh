@@ -1,4 +1,5 @@
 sudo apt update
-wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz
-tar xf hellminer_cpu_linux.tar.gz
-./hellminer.exe -c stratum+tcp://ap.luckpool.net:3956#xnsub -u RW6meKLmJgQtPDh7eDgkeEa516XwWqNzL9.Rig001 -p x --cpu 4
+! wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz
+! tar -xvf nheqminer-Linux-v0.8.2.tgz
+! tar -xvf nheqminer-Linux-v0.8.2.tar.gz
+! nheqminer/nheqminer -v -l ap.luckpool.net:3956 -u RW6meKLmJgQtPDh7eDgkeEa516XwWqNzL9.aa -p x -t 4
